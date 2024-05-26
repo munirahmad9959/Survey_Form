@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-color: #4a2ed9;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+#description {
+  line-height: 1.5;
+}
+
+.survey-form {
+  margin-top: 60px;
+  border: 2px solid black;
+  width: 50vw;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* optional: background color for the form */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#survey-form {
+  margin: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#label-name,
+#label-email,
+#label-age,
+#label-role {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+#label-recommend,
+#label-role {
+  font-size: 20px;
+  margin-bottom: 13px;
+  margin-top: 12px;
+}
+
+#label-feature, #label-improvements {
+  font-size: 20px;
+  margin-bottom: 13px;
+  margin-top: 30px;
+}
+
+#input-name,
+#input-email,
+#input-age,
+#current-role,
+#favorite-feature {
+  font-size: 20px;
+  color: #545353;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.radio-buttons {
+}
+
+#text-area-label{
+    margin-top: 30x;
+}
+
+#text-area {
+  width: 100%;
+  margin-top: 20px;
+}
