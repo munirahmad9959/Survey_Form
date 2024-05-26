@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 body {
-  background-color: #4a2ed9;
+  background-color: seagreen;
   color: #fff;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -20,16 +20,13 @@ body {
 
 .survey-form {
   margin-top: 60px;
-  border: 2px solid black;
+  border: none; 
   width: 50vw;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.1
-  ); /* optional: background color for the form */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 20px;
   border-radius: 10px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.2); 
 }
 
 #survey-form {
@@ -58,7 +55,8 @@ body {
   margin-top: 12px;
 }
 
-#label-feature, #label-improvements {
+#label-feature,
+#label-improvements {
   font-size: 20px;
   margin-bottom: 13px;
   margin-top: 30px;
@@ -66,9 +64,7 @@ body {
 
 #input-name,
 #input-email,
-#input-age,
-#current-role,
-#favorite-feature {
+#input-age {
   font-size: 20px;
   color: #545353;
   width: 100%;
@@ -81,18 +77,43 @@ body {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 10px;
+  margin-right: 15px;
   transform: scale(1.5);
 }
 
-.radio-buttons {
-}
-
-#text-area-label{
-    margin-top: 30x;
+#text-area-label {
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 #text-area {
   width: 100%;
   margin-top: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  padding: 15px auto 15px auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #25d366;
+  font-size: 20px;
+  color: #fff;
+}
+
+#current-role,
+#favorite-feature {
+  width: 100%;
+  font-size: 20px;
+  color: #545353;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  border: none;
+  margin-bottom: 15px;
 }
