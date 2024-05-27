@@ -22,7 +22,7 @@ You can view a live demo of the survey form [here](https://munirahmad9959.github
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/survey-form.git
+    git clone https://github.com/munirahmad9959/survey-form.git
     ```
 
 ## Usage
