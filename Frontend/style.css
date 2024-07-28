@@ -20,13 +20,13 @@ body {
 
 .survey-form {
   margin-top: 60px;
-  border: none; 
+  border: none;
   width: 50vw;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
-  backdrop-filter: blur(10px); 
-  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.2);
 }
 
 #survey-form {
@@ -117,4 +117,45 @@ input[type="checkbox"] {
   padding: 5px;
   border: none;
   margin-bottom: 15px;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 600px) {
+  .survey-form {
+    width: 80vw; /* Increase width for smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+
+  #name,
+  #email,
+  #number,
+  #dropdown,
+  #text-area,
+  #submit {
+    font-size: 18px; /* Adjust font size */
+    padding: 10px; /* Adjust padding */
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    transform: scale(1.2); /* Adjust scale */
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .survey-form {
+    width: 90vw; /* Further increase width for very small screens */
+  }
+
+  #title,
+  #description,
+  .form-group label {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  #submit {
+    font-size: 18px; /* Adjust font size */
+    height: auto; /* Allow height to adjust */
+    padding: 10px; /* Adjust padding */
+  }
 }
