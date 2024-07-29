@@ -17,6 +17,8 @@ You can view a live demo of the survey form [here](https://munirahmad9959.github
 
 - HTML5
 - CSS3
+- JavaScript (for form submission)
+- Nodejs (for Backend)
 
 ## Installation 
 
